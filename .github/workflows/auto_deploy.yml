@@ -32,4 +32,4 @@ jobs:
     - name: Installing Surge
       run: npm install --global surge
     - name: deployment using surge
-      run: surge ./ naeemshahzad009second.surge.sh --token $ {{ secrets.second_token }}
+      run: surge ./ naeemshahzad009second.surge.sh --token $ {{ secrets.SECOND_TOKEN }}
