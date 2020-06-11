@@ -37,5 +37,5 @@ jobs:
       run: npm install -g surge
   
     - name: depolying on surge
-      run: surge ./build naeemshahzad009third.surge.sh/ --token ${{secrets.THIRD_TOKEN}}
+      run: surge ./build/ http://naeemshahzad009third.surge.sh/ --token ${{secrets.THIRD_TOKEN}}
     
